@@ -14,7 +14,6 @@ namespace SalesWebMVC.Models
         public ICollection<SalesRecords> Sales { get; set; } = new List<SalesRecords>();
 
         public Seller() { }
-
         public Seller(int id, string name, string email, DateTime birthDate, double baseSalary, Department department)
         {
             Id = id;
