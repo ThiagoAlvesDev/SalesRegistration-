@@ -1,11 +1,23 @@
-﻿namespace SalesWebMVC.Models
+﻿using System.Collections.Generic;
+using System;
+using System.Linq;
+namespace SalesWebMVC.Models
 {
     public class Department
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string Name { get; set; }        
         
+        public Department()
+        {
+        }
 
-        
+        public Department(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
+
+       
     }
 }

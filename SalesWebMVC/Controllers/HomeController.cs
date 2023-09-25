@@ -20,7 +20,6 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult Index()
         {
-            ViewData["Email"] = "Duh@gmail.com";
             return View();
         }
 
