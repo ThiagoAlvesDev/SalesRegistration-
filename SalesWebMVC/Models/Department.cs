@@ -18,6 +18,6 @@ namespace SalesWebMVC.Models
             Name = name;
         }
 
-       
+        
     }
 }
